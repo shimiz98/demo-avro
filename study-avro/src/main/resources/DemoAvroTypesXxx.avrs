@@ -1,0 +1,9 @@
+{"namespace": "com.example.avro",
+ "type": "record",
+ "name": "DemoAvroTypesXxx",
+ "fields": [
+    {"name": "field1", "type": "boolean"},
+    {"name": "field2", "type": "int"},
+    {"name": "field3", "type": "string"}
+  ]
+}

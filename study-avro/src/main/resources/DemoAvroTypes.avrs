@@ -1,0 +1,20 @@
+{"namespace": "com.example.avro",
+ "type": "record",
+ "name": "DemoAvroTypes",
+ "fields": [
+    {"name": "avroBoolean", "type": "boolean"},
+    {"name": "avroInt", "type": "int"},
+    {"name": "avroLong", "type": "long"},
+    {"name": "avroFloat", "type": "float"},
+    {"name": "avroDouble", "type": "double"},
+    {"name": "avroBytes", "type": "bytes"},
+    {"name": "avroString", "type": "string"},
+    {"name": "avroArrayOfString", "type" : {"type": "array", "items": "string"}},
+    {"name": "avroArrayOfInt", "type" : {"type": "array", "items": "int"}},
+    {"name": "avroMapOfString", "type" : {"type": "map", "values": "string"}},
+    {"name": "avroMapOfInt", "type" : {"type": "map", "values": "int"}},
+    {"name": "avroXxx1", "type" : "DemoAvroTypesXxx"},
+    {"name": "avroXxx2", "type" : "DemoAvroTypesXxx"},
+    {"name": "avroYyy1", "type" : "DemoAvroTypesYyy"}
+  ]
+}
